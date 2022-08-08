@@ -8,6 +8,7 @@
 
 body{
     background-image: url(./img/netflix-background-image\ 1.png);
+    color: white;
 }
 
 #container{
@@ -36,6 +37,25 @@ span{
     text-align: center;
 }
 
+textarea{
+    resize: none;
+}
+
+#container{
+    width: 500px;
+    background-color: rgba(0,0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+    border: 2px solid red;
+}
+
+#name,
+#age,
+#email,
+#dropdown,
+#feedback{
+    width: %100;
+}
 
 
 
